@@ -18,12 +18,7 @@ class Canvas extends Component {
   componentDidMount() {
     this.forceUpdate()
   }
-
-  componentDidUpdate() {
-    //this.carousel.slideTo(this.state.selectedSlide), window.scrollTo(window.scrollX || window.pageXOffset, window.scrollY || window.pageYOffset - 1), window.scrollTo(window.scrollX || window.pageXOffset, window.scrollY || window.pageYOffset + 1)
-    //this.carousel.slickGoTo(this.state.selectedSlide)
-  }
-
+  
   changeSlide(slide) {
     this.setState({ selectedSlide: slide });
   }
@@ -48,12 +43,7 @@ class Canvas extends Component {
     this.forceUpdate()
   }
 
-  shouldFreeze() {
-
-  }
-
   render() {
-
     const carouselSettings = {
       arrows: false,
       autoplay: false,
