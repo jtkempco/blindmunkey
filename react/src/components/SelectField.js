@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { toFraction } from '../../myPackages/commonFunctions.js'
+import { toFraction } from '../utils/commonFunctions.js'
 
 class SelectField extends Component {
 	constructor(props) {
