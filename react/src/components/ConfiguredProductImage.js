@@ -1,5 +1,5 @@
 import React from "react"
-import { camelCaseToDash } from '../../myPackages/commonFunctions.js'
+import { camelCaseToDash } from '../utils/commonFunctions.js'
 
 const ConfiguredProductImage = (props) => {
   return (
