@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import CartItemCTABlock from './CartItemCTABlock'
 import Incrementer from './Incrementer'
-import ConfiguredProduct from './ConfiguredProduct2'
+import ConfiguredProduct from './ConfiguredProduct'
 import Unknown from './Unknown'
 import CurrencyFormat from 'react-currency-format'
 import $ from 'jquery'
