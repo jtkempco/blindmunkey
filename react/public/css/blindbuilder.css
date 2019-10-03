@@ -1634,14 +1634,3 @@ input.error {
 .IncompatibilityMessage ul li {
     margin-bottom: 10px
 }
-
-/*
-.SubOptions.hide {
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.5s cubic-bezier(.525,.66,.495,1.4);
-}
-.SubOptions.show {
-	max-height: 336px;
-}
-*/
