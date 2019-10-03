@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Checkmark from './Checkmark'
 import $ from 'jquery'
-import { toFraction } from '../../myPackages/commonFunctions.js'
+import { toFraction } from '../utils/commonFunctions.js'
 
 
 class StepHeader extends Component {
