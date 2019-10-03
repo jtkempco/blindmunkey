@@ -5,21 +5,18 @@ import AdditionalCost from './AdditionalCost'
 
 class ColorSwatchCategory extends Component {
   constructor(props) {
-		super(props);
-		this.handelClick = this.handelClick.bind(this);
-    this.onChange = this.onChange.bind(this);
-    //this.state = {"selectedValue": props.field.selectedValue};
-	}
-
-	handelClick(fieldName, selectedValue) {
+	super(props);
+	this.handelClick = this.handelClick.bind(this);
+    	this.onChange = this.onChange.bind(this);
+  }
+  
+  handelClick(fieldName, selectedValue) {
     this.onChange(this.props.stepNumber, fieldName, selectedValue);
-    //this.props.triggerOptionChanged(this.props.stepNumber, fieldName, selectedValue);
-    //this.setState({selectedValue: selectedValue});
-	}
+  }
 
   onChange(stepNumber, fieldName, selectedValue) {
     this.props.triggerOptionChanged(stepNumber, fieldName, selectedValue);
-	}
+  }
 
   render() {
     const props = this.props;
