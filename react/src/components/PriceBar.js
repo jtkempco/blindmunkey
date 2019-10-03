@@ -5,7 +5,7 @@ import Incrementer from './Incrementer'
 import OrangeButtonLink from './OrangeButtonLink'
 import LoadingCircle from './LoadingCircle'
 import PropTypes from 'prop-types'
-import { triggerQuantityChanged, triggerAddingToCart, placeItemInCart } from '../../actions/index'
+import { triggerQuantityChanged, triggerAddingToCart, placeItemInCart } from '../actions/index'
 
 
 class PriceBar extends Component {
