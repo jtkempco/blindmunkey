@@ -11,15 +11,7 @@ class MultipleChoiceTextButton extends Component {
 		this.handleClick = this.handleClick.bind(this);
 		this.handleChange = this.handleChange.bind(this);
 	}
-/*
-	componentDidMount() {
-		this.props.filteredChoices = this.props.choices.filter(choice => { if ( choice.userDisplay == 1 && choice.userVisibility == 1 ) return choice} );
-  }
-
-  componentWillReceiveProps(nextProps) {
-		nextProps.filteredChoices = nextProps.choices.filter(choice => { if ( choice.userDisplay == 1 && choice.userVisibility == 1 ) return choice} );
-  }
-*/
+	
 	handleClick(fieldName, selectedValue) {
 		this.handleChange(this.props.stepNumber, fieldName, selectedValue);
 	}
