@@ -4,7 +4,7 @@ import ColorSwatchField from './ColorSwatchField'
 import MultipleImageButtonField from './MultipleImageButtonField'
 import PointyTextButtonField from './PointyTextButtonField'
 import PropTypes from 'prop-types'
-import renderSubOptions from '../../myPackages/commonFunctions'
+import renderSubOptions from '../utils/commonFunctions'
 
 
 class InnerStep extends Component {
