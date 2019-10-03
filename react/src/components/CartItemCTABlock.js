@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { icons } from '../../myPackages/commonFunctions.js'
+import { icons } from '../utils/commonFunctions.js'
 import $ from 'jquery'
 
 class CartItemCTABlock extends Component {
