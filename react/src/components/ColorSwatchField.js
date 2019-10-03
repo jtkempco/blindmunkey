@@ -1,6 +1,6 @@
 import React from "react"
 import ColorSwatchCategory from './ColorSwatchCategory'
-import { filterByObjectProp } from '../../myPackages/commonFunctions.js'
+import { filterByObjectProp } from '../utils/commonFunctions.js'
 
 const ColorSwatchField = (props) => {
   const getCategories = ( property, choices ) => {
@@ -33,4 +33,3 @@ const ColorSwatchField = (props) => {
 }
 
 export default ColorSwatchField;
-
