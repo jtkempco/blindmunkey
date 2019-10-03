@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Slider from 'react-slick'
-import { _extends } from '../../myPackages/commonFunctions.js'
+import { _extends } from '../utils/commonFunctions.js'
 import { findDOMNode } from "react-dom"
 import $ from 'jquery'
 import ConfiguredProduct from './ConfiguredProduct'
