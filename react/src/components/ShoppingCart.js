@@ -3,8 +3,8 @@ import CartItem from './CartItem'
 import ShoppingDock from './ShoppingDock'
 import Unknown from './Unknown'
 import Cookies from 'js-cookie'
- const store = configureStore()
- store = configureStore()
+
+const store = configureStore()
 
 class ShoppingCart extends Component {
 
@@ -41,35 +41,3 @@ class ShoppingCart extends Component {
 }
 
 export default ShoppingCart
-
-
-
-
-import React, { Component, Fragment } from "react"
-import ReactDOM from 'react-dom'
-import { Provider } from 'react-redux'
-import BlindBuilderWrapper from './BlindBuilderWrapper'
-import configureStore from '../../configureStore'
-import { initialHydrateFetch } from '../../ajax'
-const store = configureStore()
-
-class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-  componentDidMount() {
-    store.dispatch((dispatch) => {
-      initialHydrateFetch(dispatch, this.props.productCode, this.props.baseURL);
-    })
-  }
-
-  render() {
-    return (
-      <Provider store={store}>
-        <BlindBuilderWrapper {...this.props} />
-      </Provider>
-    )
-  }
-}
-
-export default App
