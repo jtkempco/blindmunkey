@@ -22449,3 +22449,7 @@ input.error {
     background-color: #fff;
     border: 0
 }
+
+* {
+    box-sizing: border-box !important;
+}
