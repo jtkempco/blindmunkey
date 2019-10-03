@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { connect } from 'react-redux'
-import {triggerStepToggled, triggerOptionChanged, toggleStepAnimating, setStepAnimating, onToggleNextStep, triggerRoomLabelChanged} from '../../actions/index'
+import {triggerStepToggled, triggerOptionChanged, toggleStepAnimating, setStepAnimating, onToggleNextStep, triggerRoomLabelChanged} from '../actions/index'
 import StepHeader from './StepHeader'
 import StepTitle from './StepTitle'
 import StepIntroText from './StepIntroText'
